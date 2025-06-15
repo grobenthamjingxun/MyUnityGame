@@ -1,34 +1,82 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
-  m_Name: Readme
-  m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
-  title: URP Empty Template
-  sections:
-  - heading: Welcome to the Universal Render Pipeline
-    text: This template includes the settings and assets you need to start creating with the Universal Render Pipeline.
-    linkText: 
-    url:
-  - heading: URP Documentation
-    text:
-    linkText: Read more about URP
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest
-  - heading: Forums
-    text:
-    linkText: Get answers and support
-    url: https://forum.unity.com/forums/universal-render-pipeline.383/
-  - heading: Report bugs
-    text:
-    linkText: Submit a report
-    url: https://unity3d.com/unity/qa/bug-reporting
-  loadedLayout: 1
+I3E-Apr-2025-Assignment-1
+Unity First-Person 3D Level - Game Prototype
+
+Author: GrobenTham  
+Date: June 15, 2025
+
+
+
+About This Game
+
+Welcome to my Unity first-person 3D level! You’ll explore indoor and outdoor areas, collect shiny coins, avoid tricky hazards, and hop on moving platforms. If you touch a hazard, no worries — you’ll respawn safely at the yellow block to try again.
+
+
+
+How to Play
+
+What You Need
+- A Windows PC, Mac, or Linux computer (Windows recommended)
+- Unity 2023 or newer (tested on 2023.1)
+- Keyboard and mouse
+
+Controls
+| What You Do      | How You Do It           |
+|------------------|------------------------|
+| Move forward     | W or Up Arrow          |
+| Move backward    | S or Down Arrow        |
+| Move left        | A or Left Arrow        |
+| Move right       | D or Right Arrow       |
+| Jump             | Spacebar               |
+| Look around      | Move your mouse        |
+
+
+
+What’s in the Game
+
+- Coins: Sparkly coins spin around. Grab as many as you can to boost your score, which you can see on the screen.
+
+- Hazards: Watch out for red blocks that move or spin! Touch them, and you’ll be sent back to the yellow respawn spot.
+
+- Moving Platforms: Some blocks slide left and right — time your jumps carefully or you might fall.
+
+- Score Display: Your coin count is always visible in the UI, so you know how you’re doing.
+
+
+
+## Known Issues
+
+- Moving platforms have fixed speed and don’t react to you.
+- Sometimes the respawn might feel a little jittery due to how teleporting works.
+- No sound effects yet for picking up coins or hitting hazards.
+- The game doesn’t save your progress or scores.
+- The “puzzle” is pretty straightforward — just avoid hazards and collect coins.
+
+
+
+Credits
+
+- All models are simple Unity cubes and materials — nothing fancy or external.
+- Scripts and coding by me, GrobenTham & ChatGPT.
+- UI uses Unity’s TextMeshPro for crisp on-screen text.
+
+
+
+Tips & Tricks
+
+- Collect as many coins as you can to rack up your score.
+- Stay clear of red hazards — they’ll send you back to start.
+- Watch the timing on moving platforms and jump carefully.
+
+
+
+What’s Next?
+
+If I add more features, here’s what I’d like to do:
+
+- Add sound effects to make the game more lively.
+- Create cool animations for doors or other objects.
+- Implement checkpoints so you don’t have to restart from the beginning.
+- Add more puzzles and challenges to keep things interesting.
+- Maybe add a health or lives system for more gameplay depth.
+
+
